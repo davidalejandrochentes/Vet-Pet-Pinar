@@ -5117,6 +5117,32 @@ section,
   height: 100%;
 }
 
+.testimonials .section-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--heading-color), var(--accent-color));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .testimonials .section-heading {
+    font-size: 2.25rem;
+  }
+}
+
+.testimonials .lead-description {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50px;
@@ -5368,6 +5394,32 @@ section,
   overflow: hidden;
 }
 
+.faq .section-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--heading-color), var(--accent-color));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .faq .section-heading {
+    font-size: 2.25rem;
+  }
+}
+
+.faq .lead-description {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .faq .faq-container .faq-item:last-child {
   margin-bottom: 0;
 }
@@ -5445,6 +5497,32 @@ section,
 --------------------------------------------------------------*/
 .contact {
   overflow: hidden;
+}
+
+.contact .section-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--heading-color), var(--accent-color));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .contact .section-heading {
+    font-size: 2.25rem;
+  }
+}
+
+.contact .lead-description {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .contact .info-box {
